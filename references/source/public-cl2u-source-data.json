@@ -1,0 +1,93 @@
+{
+  "url": "https://public.cl2u.net/",
+  "title": "CL2U \u2013 All Your Rewards in one Platform!",
+  "visibleSections": [
+    "header nav",
+    "hero banner",
+    "intro text + phone illustration",
+    "pink partner/store section",
+    "join CTA section",
+    "footer nav",
+    "copyright footer"
+  ],
+  "assets": {
+    "logo": "https://public.cl2u.net/wp-content/uploads/2022/08/cl2u-logo-dark.png",
+    "hero": "https://public.cl2u.net/wp-content/uploads/2022/08/developing-things-laying-blue-background-scaled.jpg",
+    "mobile": "https://public.cl2u.net/wp-content/uploads/2022/08/hand-holding-mobile.png",
+    "social": "https://public.cl2u.net/wp-content/uploads/2022/08/5149652.png",
+    "partner": "https://public.cl2u.net/wp-content/uploads/2022/08/cl2u-partner.png"
+  },
+  "localAssets": {
+    "logo": "/images/logo.png",
+    "hero": "/images/hero.jpg",
+    "mobile": "/images/mobile.png",
+    "social": "/images/social.png",
+    "partner": "/images/partner.png"
+  },
+  "styles": {
+    "body": {
+      "fontFamily": "Source Sans Pro / Arial fallback",
+      "fontSize": "20px",
+      "lineHeight": "33px",
+      "color": "#000"
+    },
+    "header": {
+      "height": "90px",
+      "background": "#fff",
+      "logo": "134x50",
+      "navFont": "16px 700",
+      "active": "#ff4444",
+      "loginBg": "#bf1e24"
+    },
+    "hero": {
+      "height": "700px",
+      "backgroundSize": "cover",
+      "headline": "40px 900 #0c0c0c centered"
+    },
+    "contentRows": {
+      "maxWidth": "1205px",
+      "padding": "20px 30px",
+      "columnGap": "4%",
+      "imageMax": "250px"
+    },
+    "pinkRow": {
+      "background": "#ffb7ba",
+      "textColor": "#fff",
+      "textAlign": "right/center"
+    },
+    "footerNav": {
+      "background": "#bf1e24",
+      "linkColor": "#fff",
+      "fontSize": "18px"
+    }
+  },
+  "suspiciousContentExcluded": [
+    "Hidden/offscreen casino links and foreign-language casino copy detected in rendered DOM: sosprojekt.de, casino50.com, pin-up-uz.biz. Excluded from clone as injected SEO spam, not visually relevant homepage content."
+  ],
+  "images": [
+    {
+      "src": "https://public.cl2u.net/wp-content/uploads/2022/08/cl2u-logo-dark.png",
+      "local": "/images/logo.png"
+    },
+    {
+      "src": "https://public.cl2u.net/wp-content/uploads/2022/08/developing-things-laying-blue-background-scaled.jpg",
+      "local": "/images/hero.jpg"
+    },
+    {
+      "src": "https://public.cl2u.net/wp-content/uploads/2022/08/hand-holding-mobile.png",
+      "local": "/images/mobile.png"
+    },
+    {
+      "src": "https://public.cl2u.net/wp-content/uploads/2022/08/5149652.png",
+      "local": "/images/social.png"
+    },
+    {
+      "src": "https://public.cl2u.net/wp-content/uploads/2022/08/cl2u-partner.png",
+      "local": "/images/partner.png"
+    }
+  ],
+  "videos": [],
+  "flex": [
+    "visible desktop rows use two-column layouts; mobile stacks columns"
+  ]
+}

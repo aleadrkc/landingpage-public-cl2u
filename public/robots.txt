@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://demolandingpubliccl2u.z48.web.core.windows.net/sitemap.xml
