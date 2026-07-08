@@ -7,7 +7,7 @@
     "general": 17,
     "business": 12
   },
-  "search_behavior": "Search box intentionally disabled per user request; UI only.",
+  "search_behavior": "Search is implemented as static client-side filtering over src/app/faqs/faqs.json. No database, API, or backend is required.",
   "categories": [
     "all",
     "business",
