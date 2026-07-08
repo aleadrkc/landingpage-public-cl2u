@@ -13,3 +13,11 @@ Source: https://public.cl2u.net/privacy-statement/
 Target: /privacy-statement/
 
 Cloned visible legal content from the rendered/source `.fusion-text.list-as-paragraph.text-align-justify` block. Shared CL2U header/footer are reused locally; WordPress wrapper/plugin markup is excluded. Rendered-source suspicious link scan found no casino/pharma spam links for this page.
+
+
+## FAQs page
+
+Source: https://public.cl2u.net/faqs/
+Target: /faqs/
+
+Cloned the visible FAQ UI: title, disabled search box, red category filter labels (All / Business / General), and expandable/collapsible FAQ rows. Search is intentionally inert/disabled per user request. Browser-rendered suspicious link scan found no casino/pharma spam links for this page.
