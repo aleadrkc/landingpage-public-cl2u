@@ -52,7 +52,7 @@ const guideGroups = [
   },
   {
     title: 'CL2U Additional Guide for Publishers',
-    href: `${origin}/docs/cl2u-additional-guide-for-publishers/`,
+    href: '/docs/cl2u-additional-guide-for-publishers/',
     sections: [
       ['About', `${origin}/docs/cl2u-additional-guide-for-publishers/about/`],
     ],

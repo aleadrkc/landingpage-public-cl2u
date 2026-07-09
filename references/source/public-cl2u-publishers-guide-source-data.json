@@ -1,0 +1,44 @@
+{
+  "url": "https://public.cl2u.net/docs/cl2u-additional-guide-for-publishers/",
+  "title": "CL2U Additional Guide for Publishers – CL2U",
+  "route": "/docs/cl2u-additional-guide-for-publishers/",
+  "sourceType": "WordPress weDocs top-level documentation category page",
+  "images": [
+    {
+      "src": "https://public.cl2u.net/wp-content/uploads/2022/08/cl2u-logo-dark.png",
+      "local": "/images/logo.png",
+      "alt": "CL2U Logo",
+      "naturalWidth": 165,
+      "naturalHeight": 62
+    }
+  ],
+  "content": {
+    "sidebarTitle": "CL2U Additional Guide for Publishers",
+    "breadcrumb": ["Home", "Docs", "CL2U Additional Guide for Publishers"],
+    "heading": "CL2U Additional Guide for Publishers",
+    "articleHeading": "Articles",
+    "articles": [
+      {
+        "label": "About",
+        "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-publishers/about/",
+        "children": [
+          {
+            "label": "Publisher Role",
+            "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-publishers/about/publisher-role/"
+          }
+        ]
+      }
+    ],
+    "helpText": "Still stuck? How can we help?",
+    "updated": "Updated on March 10, 2023",
+    "previous": "CL2U Additional Guide for Distributors"
+  },
+  "computedStyleNotes": {
+    "body": "Source Sans Pro, 20px/33px, white background",
+    "header": "90px height, logo left, nav right, login red pill",
+    "main": "max-width 1170px, top padding 55px, search full width 50px high",
+    "sidebar": "left column ~25%, hidden on mobile in source",
+    "content": "right column ~70%, H1 40px bold, article card well with nested list",
+    "footer": "red footer nav, white copyright block"
+  }
+}
