@@ -1,7 +1,7 @@
 const { BlobServiceClient } = require('@azure/storage-blob');
 
 const allowedOrigin = process.env.ALLOWED_ORIGIN || 'https://demolandingpubliccl2u.z48.web.core.windows.net';
-const containerName = process.env.LOG_CONTAINER || '$web';
+const containerName = process.env.LOG_CONTAINER || 'visitor-logs';
 const prefix = process.env.LOG_PREFIX || '_visitor-logs';
 const conn = process.env.LOG_STORAGE_CONNECTION_STRING || process.env.AzureWebJobsStorage;
 
