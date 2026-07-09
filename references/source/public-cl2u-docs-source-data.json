@@ -1,0 +1,132 @@
+{
+  "url": "https://public.cl2u.net/docs/",
+  "title": "Documentation \u2013 CL2U",
+  "raw_bytes": 64480,
+  "docs_links": [
+    {
+      "text": "Skip to content",
+      "href": "https://public.cl2u.net/docs/#content"
+    },
+    {
+      "text": "CL2U User Guide for Players",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide/"
+    },
+    {
+      "text": "Accounts",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/"
+    },
+    {
+      "text": "Tournaments",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide/tournaments/"
+    },
+    {
+      "text": "Decks",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/"
+    },
+    {
+      "text": "Shops",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide/shops/"
+    },
+    {
+      "text": "Rewards",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide/rewards/"
+    },
+    {
+      "text": "Adventures",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide/adventures/"
+    },
+    {
+      "text": "Biz Rewards",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide/biz-rewards/"
+    },
+    {
+      "text": "CL2U User Guide for Business Owners",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/"
+    },
+    {
+      "text": "Accounts",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/accounts/"
+    },
+    {
+      "text": "Business Details",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/business-details/"
+    },
+    {
+      "text": "Events",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/events/"
+    },
+    {
+      "text": "Tournaments",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/tournaments/"
+    },
+    {
+      "text": "Official Shop Programme",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/official-shop-programme/"
+    },
+    {
+      "text": "Players",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/players/"
+    },
+    {
+      "text": "Saved Business",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/saved-business/"
+    },
+    {
+      "text": "Rewards",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/rewards/"
+    },
+    {
+      "text": "Shops",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/shops/"
+    },
+    {
+      "text": "Badges",
+      "href": "https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/badges/"
+    },
+    {
+      "text": "CL2U Additional Guide for Distributors",
+      "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-distributors/"
+    },
+    {
+      "text": "Saved Business",
+      "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-distributors/saved-business/"
+    },
+    {
+      "text": "Official Shop Programme",
+      "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-distributors/official-shop-programme/"
+    },
+    {
+      "text": "Shops",
+      "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-distributors/shops/"
+    },
+    {
+      "text": "Staff",
+      "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-distributors/staff/"
+    },
+    {
+      "text": "Adventure Campaigns",
+      "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/"
+    },
+    {
+      "text": "Campaigns",
+      "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-distributors/campaigns/"
+    },
+    {
+      "text": "Tournament Criteria",
+      "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-distributors/tournament-criteria/"
+    },
+    {
+      "text": "CL2U Additional Guide for Publishers",
+      "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-publishers/"
+    },
+    {
+      "text": "About",
+      "href": "https://public.cl2u.net/docs/cl2u-additional-guide-for-publishers/about/"
+    },
+    {
+      "text": "Go to Top",
+      "href": "https://public.cl2u.net/docs/"
+    }
+  ],
+  "note": "Hub clone only; child guide links point to origin public.cl2u.net for phased migration."
+}

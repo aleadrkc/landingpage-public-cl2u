@@ -97,6 +97,25 @@ a { color: inherit; text-decoration: none; }
 .faq-answer a { color: #ca2026; font-weight: 700; }
 .faq-no-results { margin: 0 0 28px; padding: 20px 25px; border: 3px solid #000; color: #000; font-size: 20px; line-height: 33px; }
 
+.docs-page { background: #fff; padding: 55px 30px 40px; }
+.docs-content { max-width: 1170px; margin: 0 auto; padding-top: 20px; }
+.docs-content h1 { margin: 0 0 31px; color: #333; font-size: 36px; line-height: 54px; font-weight: 900; }
+.docs-search-label { margin: 0 0 20px; font-size: 20px; line-height: 33px; }
+.docs-search { position: relative; display: flex; width: 100%; margin-bottom: 4%; }
+.docs-search input[type='search'] { width: 100%; height: 50px; border: 1px solid #d2d2d2; border-radius: 6px; background: #fff; color: #000; font-family: inherit; font-size: 16px; padding: 0 15px 0 60px; }
+.docs-search input[type='search']:focus { outline: 0; border-color: #bf1e24; box-shadow: 0 0 0 1px rgba(191, 30, 36, 0.16); }
+.docs-search button, .docs-search-icon { position: absolute; left: 0; top: 0; width: 60px; height: 50px; border: 0; background: transparent; color: #aaa9a9; font-size: 22px; line-height: 50px; display: flex; align-items: center; justify-content: center; }
+.docs-search button { cursor: pointer; text-indent: -9999px; overflow: hidden; }
+.docs-grid { list-style: none; margin: 0 0 20px; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; }
+.docs-card { border: 1px solid #e5e5e5; background: #fff; min-height: 235px; display: flex; flex-direction: column; }
+.docs-card h2 { margin: 0; padding: 8px 12px; font-size: 18px; line-height: 25.2px; font-weight: 700; }
+.docs-card a { color: #f80000; }
+.docs-card a:hover { color: #bf1e24; }
+.docs-card-body { flex: 1 1 auto; padding: 0 12px 8px; }
+.docs-card-body ul { margin: 0; padding: 0 0 0 22px; }
+.docs-card-body li { margin: 0; font-size: 20px; line-height: 33px; }
+.docs-card-link { padding: 8px 12px 14px; font-size: 20px; line-height: 33px; }
+
 @media (max-width: 900px) {
   .site-header { position: fixed; }
   .header-row { padding: 0 30px; }
@@ -124,6 +143,11 @@ a { color: inherit; text-decoration: none; }
   .faq-panel h4 { font-size: 17px; line-height: 25px; }
   .faq-panel h4 button { padding: 14px 16px; gap: 14px; }
   .faq-answer { padding: 0 16px 18px; }
+  .docs-page { padding: 90px 22px 36px; }
+  .docs-content { padding-top: 20px; }
+  .docs-content h1 { font-size: 34px; line-height: 44px; }
+  .docs-grid { grid-template-columns: 1fr; gap: 22px; }
+  .docs-card-body li, .docs-card-link, .docs-search-label { font-size: 18px; line-height: 30px; }
 }
 
 @media (max-width: 520px) {
