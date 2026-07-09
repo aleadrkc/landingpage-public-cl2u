@@ -1,0 +1,7 @@
+{
+  "name": "cl2u-visitor-log",
+  "version": "1.0.0",
+  "dependencies": {
+    "@azure/storage-blob": "^12.27.0"
+  }
+}

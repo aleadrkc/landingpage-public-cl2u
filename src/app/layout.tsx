@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
 
 const baseUrl = 'https://demolandingpubliccl2u.z48.web.core.windows.net';
@@ -36,7 +37,52 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Script id="visitor-access-log" strategy="afterInteractive">
+          {`
+            (function () {
+              function postVisitorLog(status) {
+                var endpoint = 'https://cl2u-demo-log-win.azurewebsites.net/api/visitor-log';
+                var payload = JSON.stringify({
+                  method: 'GET',
+                  path: window.location.pathname + window.location.search,
+                  status: status,
+                  size: document.documentElement ? document.documentElement.outerHTML.length : 0,
+                  referrer: document.referrer || '-',
+                  ua: navigator.userAgent || '-'
+                });
+                try {
+                  if (navigator.sendBeacon) {
+                    navigator.sendBeacon(endpoint, new Blob([payload], { type: 'text/plain;charset=UTF-8' }));
+                    return;
+                  }
+                } catch (e) {}
+                try {
+                  fetch(endpoint, { method: 'POST', mode: 'no-cors', keepalive: true, body: payload });
+                } catch (e) {}
+              }
+              function sendVisitorLog() {
+                var h1 = document.querySelector('h1');
+                var fallbackStatus = (h1 && /^404\b/.test(h1.textContent || '')) || /^404\b/.test(document.title || '') ? 404 : 200;
+                try {
+                  fetch(window.location.href, { method: 'HEAD', cache: 'no-store' })
+                    .then(function (res) { postVisitorLog(res.status || fallbackStatus); })
+                    .catch(function () { postVisitorLog(fallbackStatus); });
+                  return;
+                } catch (e) {
+                  postVisitorLog(fallbackStatus);
+                }
+              }
+              if (document.readyState === 'complete') {
+                window.setTimeout(sendVisitorLog, 0);
+              } else {
+                window.addEventListener('load', sendVisitorLog, { once: true });
+              }
+            })();
+          `}
+        </Script>
+      </body>
     </html>
   );
 }
