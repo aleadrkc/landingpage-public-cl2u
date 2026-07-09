@@ -13,22 +13,35 @@ const distributorArticles = [
   {
     label: 'Saved Business',
     href: `/docs/cl2u-additional-guide-for-distributors/saved-business/`,
-    children: [],
+    children: [
+      { label: 'Create A New List for Your Favorite Business', href: `/docs/cl2u-additional-guide-for-distributors/saved-business/create-a-new-list-for-your-favorite-business/` },
+      { label: 'Add a Business into Your Saved Business List', href: `/docs/cl2u-additional-guide-for-distributors/saved-business/add-a-business-into-your-saved-business-list/` },
+      { label: 'Manage Your Saved Business List', href: `/docs/cl2u-additional-guide-for-distributors/saved-business/manage-your-saved-business-list/` },
+      { label: 'Remove a Business from Your Saved Business List', href: `/docs/cl2u-additional-guide-for-distributors/saved-business/remove-a-business-from-your-saved-business-list/` },
+    ],
   },
   {
     label: 'Official Shop Programme',
     href: `/docs/cl2u-additional-guide-for-distributors/official-shop-programme/`,
-    children: [],
+    children: [
+      { label: 'Create an Official Shop Programme', href: `/docs/cl2u-additional-guide-for-distributors/official-shop-programme/create-an-official-shop-programme/` },
+      { label: 'Add a Shop or an Event Organizer to the Official Shop Programme You Created', href: `/docs/cl2u-additional-guide-for-distributors/official-shop-programme/add-a-shop-or-an-event-organizer-to-the-official-shop-programme-you-created/` },
+      { label: 'Add Tournament to Official Shop Programme', href: `/docs/cl2u-additional-guide-for-distributors/official-shop-programme/add-tournament-to-official-shop-programme/` },
+    ],
   },
   {
     label: 'Shops',
     href: `/docs/cl2u-additional-guide-for-distributors/shops/`,
-    children: [],
+    children: [
+      { label: 'Manage Shops Selling Your Products', href: `/docs/cl2u-additional-guide-for-distributors/shops/manage-shops-selling-your-products/` },
+      { label: 'Give Official Badge to the Shops', href: `/docs/cl2u-additional-guide-for-distributors/shops/give-official-badge-to-the-shops/` },
+    ],
   },
   {
     label: 'Staff',
     href: `/docs/cl2u-additional-guide-for-distributors/staff/`,
     children: [
+      { label: 'Create Roles for Staff', href: `/docs/cl2u-additional-guide-for-distributors/staff/create-roles-for-staff/` },
       { label: 'Add Staff', href: `/docs/cl2u-additional-guide-for-distributors/staff/add-staff/` },
       { label: 'Edit Staff', href: `/docs/cl2u-additional-guide-for-distributors/staff/edit-staff/` },
       { label: 'Delete Staff', href: `/docs/cl2u-additional-guide-for-distributors/staff/delete-staff/` },
@@ -195,14 +208,7 @@ export default function DistributorsGuideCategoryPage() {
                 <time dateTime="2023-03-10T16:36:58+08:00">Updated on March 10, 2023</time>
               </footer>
 
-              <nav className="wedocs-doc-nav-clone" aria-label="Doc navigation">
-                <a href="https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/">← CL2U User Guide for Business Owners</a>
-                <a href="https://public.cl2u.net/docs/cl2u-additional-guide-for-publishers/">CL2U Additional Guide for Publishers →</a>
-              </nav>
 
-              <div className="wedocs-feedback-clone">
-                Was this article helpful to you? <a href="#">Yes</a> <a href="#">No</a>
-              </div>
             </article>
           </div>
         </section>
