@@ -162,7 +162,7 @@ export default function Page() {
               <div className="article-child-clone" itemProp="articleBody" dangerouslySetInnerHTML={{"__html": _html}} />
 
               <footer className="wedocs-entry-footer-clone">
-                <span className="wedocs-help-icon"><img src="/images/envelope-help.svg" alt="" width={16} height={16} aria-hidden="true" /> Still stuck? <a href="#">How can we help?</a></span>
+                <span className="wedocs-help-icon"><img src="/images/envelope-help.svg" alt="" width={16} height={16} aria-hidden="true" /> Still stuck? <a href="https://cl2u.net/contact-us">How can we help?</a></span>
                 <time dateTime="2023-03-10T16:36:58+08:00">Updated on March 7, 2023</time>
               </footer>
             </article>

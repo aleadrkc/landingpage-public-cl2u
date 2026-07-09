@@ -10,6 +10,11 @@ export const metadata: Metadata = {
     template: '%s | CL2U',
   },
   description: 'CL2U connects gamers with play history, event notifications, pre-registration, leaderboards, rewards, and partner store community updates.',
+  icons: {
+    icon: '/images/favicon-32px.png',
+    shortcut: '/images/favicon-32px.png',
+    apple: '/images/favicon-32px.png',
+  },
   alternates: { canonical: '/' },
   openGraph: {
     title: 'CL2U – All Your Rewards in one Platform!',
