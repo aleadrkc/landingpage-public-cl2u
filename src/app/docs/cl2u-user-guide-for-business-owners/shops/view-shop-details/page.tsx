@@ -64,7 +64,7 @@ function SiteFooter() {
 }
 
 export default function Page() {
-  const _html = atob(_b);
+  const _html = new TextDecoder().decode(Uint8Array.from(atob(_b), (char) => char.charCodeAt(0)));
   return (
     <>
       <SiteHeader />
