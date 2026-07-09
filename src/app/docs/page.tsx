@@ -10,7 +10,7 @@ const origin = 'https://public.cl2u.net';
 const guideGroups = [
   {
     title: 'CL2U User Guide for Players',
-    href: `${origin}/docs/cl2u-user-guide/`,
+    href: '/docs/cl2u-user-guide/',
     sections: [
       ['Accounts', `${origin}/docs/cl2u-user-guide/accounts/`],
       ['Tournaments', `${origin}/docs/cl2u-user-guide/tournaments/`],
@@ -23,7 +23,7 @@ const guideGroups = [
   },
   {
     title: 'CL2U User Guide for Business Owners',
-    href: `${origin}/docs/cl2u-user-guide-for-business-owners/`,
+    href: '/docs/cl2u-user-guide-for-business-owners/',
     sections: [
       ['Accounts', `${origin}/docs/cl2u-user-guide-for-business-owners/accounts/`],
       ['Business Details', `${origin}/docs/cl2u-user-guide-for-business-owners/business-details/`],
@@ -35,6 +35,7 @@ const guideGroups = [
       ['Rewards', `${origin}/docs/cl2u-user-guide-for-business-owners/rewards/`],
       ['Shops', `${origin}/docs/cl2u-user-guide-for-business-owners/shops/`],
       ['Badges', `${origin}/docs/cl2u-user-guide-for-business-owners/badges/`],
+      ['Biz Rewards', `${origin}/docs/cl2u-user-guide-for-business-owners/biz-rewards/`],
     ],
   },
   {

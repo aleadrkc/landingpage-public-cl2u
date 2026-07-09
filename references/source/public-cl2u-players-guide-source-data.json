@@ -1,0 +1,105 @@
+{
+  "url": "https://public.cl2u.net/docs/cl2u-user-guide/",
+  "title": "CL2U User Guide for Players – CL2U",
+  "route": "/docs/cl2u-user-guide/",
+  "sourceType": "WordPress weDocs top-level documentation category page",
+  "images": [{"src": "https://public.cl2u.net/wp-content/uploads/2022/08/cl2u-logo-dark.png", "local": "/images/logo.png", "alt": "CL2U Logo", "naturalWidth": 165, "naturalHeight": 62}],
+  "content": {
+    "sidebarTitle": "CL2U User Guide for Players",
+    "breadcrumb": ["Home", "Docs", "CL2U User Guide for Players"],
+    "heading": "CL2U User Guide for Players",
+    "articleHeading": "Articles",
+    "articles": [
+      {
+        "label": "Accounts",
+        "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/",
+        "children": [
+          {"label": "Sign Up as Player (For those above 18 years old)", "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/sign-up-as-player-for-those-above-18-years-old/"},
+          {"label": "Sign Up as Player (For those under 18 years old)", "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/sign-up-as-player-for-those-under-18-years-old/"},
+          {"label": "Login", "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/login/"},
+          {"label": "Forgot Username", "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/forgot-username/"},
+          {"label": "Forgot Password", "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/forgot-password/"},
+          {"label": "Manage Dashboard", "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/manage-dashboard/"},
+          {"label": "Change Profile", "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/change-profile/"},
+          {"label": "Change Password", "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/change-password/"},
+          {"label": "Delete Account", "href": "https://public.cl2u.net/docs/cl2u-user-guide/accounts/delete-account/"}
+        ]
+      },
+      {
+        "label": "Tournaments",
+        "href": "https://public.cl2u.net/docs/cl2u-user-guide/tournaments/",
+        "children": [
+          {"label": "Find a Tournament", "href": "https://public.cl2u.net/docs/cl2u-user-guide/tournaments/find-a-tournament/"},
+          {"label": "Register a Tournament (Including Email Received)", "href": "https://public.cl2u.net/docs/cl2u-user-guide/tournaments/register-a-tournament-including-email-received/"},
+          {"label": "Register a Team Tournament (Including Email Received)", "href": "https://public.cl2u.net/docs/cl2u-user-guide/tournaments/register-a-team-tournament-including-email-received/"},
+          {"label": "Manage Registered Tournaments", "href": "https://public.cl2u.net/docs/cl2u-user-guide/tournaments/manage-registered-tournaments/"},
+          {"label": "Cancel Tournament Registration", "href": "https://public.cl2u.net/docs/cl2u-user-guide/tournaments/cancel-tournament-registration/"},
+          {"label": "Edit Card Deck (Submitted to Tournaments)", "href": "https://public.cl2u.net/docs/cl2u-user-guide/tournaments/edit-card-deck-submitted-to-tournaments/"},
+          {"label": "View Tournaments History", "href": "https://public.cl2u.net/docs/cl2u-user-guide/tournaments/view-tournaments-history/"},
+          {"label": "View Leaderboard", "href": "https://public.cl2u.net/docs/cl2u-user-guide/tournaments/view-leaderboard/"}
+        ]
+      },
+      {
+        "label": "Decks",
+        "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/",
+        "children": [
+          {"label": "Manage Deck List", "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/manage-deck-list/"},
+          {"label": "Create Deck List", "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/create-deck-list/"},
+          {"label": "Edit Deck List", "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/edit-deck-list/"},
+          {"label": "Delete Deck List", "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/delete-deck-list/"},
+          {"label": "View All Cards in All Deck Lists", "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/view-all-cards-in-all-deck-lists/"},
+          {"label": "Manage Decklog", "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/manage-decklog/"},
+          {"label": "Create Decklog", "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/create-decklog/"},
+          {"label": "Edit Decklog", "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/edit-decklog/"},
+          {"label": "Delete Decklog", "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/delete-decklog/"},
+          {"label": "View Cards in Decklog", "href": "https://public.cl2u.net/docs/cl2u-user-guide/decks/view-cards-in-decklog/"}
+        ]
+      },
+      {
+        "label": "Shops",
+        "href": "https://public.cl2u.net/docs/cl2u-user-guide/shops/",
+        "children": [
+          {"label": "Find Nearby Retail Shop", "href": "https://public.cl2u.net/docs/cl2u-user-guide/shops/find-nearby-retail-shop/"},
+          {"label": "View Tournaments (Held by Shop)", "href": "https://public.cl2u.net/docs/cl2u-user-guide/shops/view-tournaments-held-by-shop/"},
+          {"label": "Bookmark Shop to Favorite Shop List", "href": "https://public.cl2u.net/docs/cl2u-user-guide/shops/bookmark-shop-to-favorite-shop-list/"},
+          {"label": "Manage Favorite Shop List", "href": "https://public.cl2u.net/docs/cl2u-user-guide/shops/manage-favorite-shop-list/"}
+        ]
+      },
+      {
+        "label": "Rewards",
+        "href": "https://public.cl2u.net/docs/cl2u-user-guide/rewards/",
+        "children": [
+          {"label": "View Rewards", "href": "https://public.cl2u.net/docs/cl2u-user-guide/rewards/view-rewards/"},
+          {"label": "Redeem Rewards", "href": "https://public.cl2u.net/docs/cl2u-user-guide/rewards/redeem-rewards/"},
+          {"label": "View Redemption History", "href": "https://public.cl2u.net/docs/cl2u-user-guide/rewards/view-redemption-history/"},
+          {"label": "View Rewards Points Information", "href": "https://public.cl2u.net/docs/cl2u-user-guide/rewards/view-rewards-points-information/"}
+        ]
+      },
+      {
+        "label": "Adventures",
+        "href": "https://public.cl2u.net/docs/cl2u-user-guide/adventures/",
+        "children": [
+          {"label": "How to Redeem the Vanguard Adventures", "href": "https://public.cl2u.net/docs/cl2u-user-guide/adventures/how-to-redeem-the-vanguard-adventures/"}
+        ]
+      },
+      {
+        "label": "Biz Rewards",
+        "href": "https://public.cl2u.net/docs/cl2u-user-guide/biz-rewards/",
+        "children": [
+          {"label": "Redeem Biz Rewards", "href": "https://public.cl2u.net/docs/cl2u-user-guide/biz-rewards/redeem-biz-rewards/"}
+        ]
+      }
+    ],
+    "helpText": "Still stuck? How can we help?",
+    "updated": "Updated on March 10, 2023",
+    "next": "CL2U User Guide for Business Owners"
+  },
+  "computedStyleNotes": {
+    "body": "Source Sans Pro, 20px/33px, white background",
+    "header": "90px height, logo left, nav right, login red pill",
+    "main": "max-width 1170px, top padding 55px, search full width 50px high",
+    "sidebar": "left column ~25%, hidden on mobile",
+    "content": "right column ~70%, H1 40px bold, article card well with nested list",
+    "footer": "red footer nav, white copyright block"
+  }
+}
