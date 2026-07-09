@@ -15,7 +15,7 @@ const bizOwnerArticles = [
     href: `/docs/cl2u-user-guide-for-business-owners/accounts/`,
     children: [
       {label: 'Create a Business Account', href: `/docs/cl2u-user-guide-for-business-owners/accounts/create-a-business-account/`},
-      {label: 'Login & Verify Business Account', href: `/docs/cl2u-user-guide-for-business-owners/accounts/login-verify-business-account/`},
+      {label: 'Login & Verify Business Account', href: `/docs/cl2u-user-guide-for-business-owners/accounts/login/`},
       {label: 'Forgot Password', href: `/docs/cl2u-user-guide-for-business-owners/accounts/forgot-password/`},
       {label: 'Forgot Username', href: `/docs/cl2u-user-guide-for-business-owners/accounts/forgot-username/`},
       {label: 'Change Profile', href: `/docs/cl2u-user-guide-for-business-owners/accounts/change-profile/`},
@@ -35,10 +35,10 @@ const bizOwnerArticles = [
     label: 'Events',
     href: `/docs/cl2u-user-guide-for-business-owners/events/`,
     children: [
-      {label: 'Manage Events', href: `/docs/cl2u-user-guide-for-business-owners/events/manage-events/`},
+      {label: 'Manage Events', href: `/docs/cl2u-user-guide-for-business-owners/events/manage-created-events/`},
       {label: 'Create an Event', href: `/docs/cl2u-user-guide-for-business-owners/events/create-an-event/`},
       {label: "Edit an Event\u2019s Data", href: `/docs/cl2u-user-guide-for-business-owners/events/edit-an-events-data/`},
-      {label: 'View List of Created Events', href: `/docs/cl2u-user-guide-for-business-owners/events/view-list-of-created-events/`},
+      {label: 'View List of Created Events', href: `/docs/cl2u-user-guide-for-business-owners/events/view-events-created/`},
       {label: 'View an Event in Public Page', href: `/docs/cl2u-user-guide-for-business-owners/events/view-an-event-in-public-page/`},
     ],
   },
@@ -46,7 +46,7 @@ const bizOwnerArticles = [
     label: 'Tournaments',
     href: `/docs/cl2u-user-guide-for-business-owners/tournaments/`,
     children: [
-      {label: 'Create a Tournament and Team Tournament', href: `/docs/cl2u-user-guide-for-business-owners/tournaments/create-a-tournament-and-team-tournament/`},
+      {label: 'Create a Tournament and Team Tournament', href: `/docs/cl2u-user-guide-for-business-owners/tournaments/create-a-tournament/`},
       {label: 'Manage Tournament', href: `/docs/cl2u-user-guide-for-business-owners/tournaments/manage-tournament/`},
       {label: 'Manually Enroll a Player to a Tournament', href: `/docs/cl2u-user-guide-for-business-owners/tournaments/manually-enroll-a-player-to-a-tournament/`},
       {label: 'Approve/Edit/Remove a Player Enrollment in a Tournament', href: `/docs/cl2u-user-guide-for-business-owners/tournaments/approve-edit-remove-a-player-enrollment-in-a-tournament/`},
@@ -81,8 +81,8 @@ const bizOwnerArticles = [
     label: 'Saved Business',
     href: `/docs/cl2u-user-guide-for-business-owners/saved-business/`,
     children: [
-      {label: 'Manage Saved Business List', href: `/docs/cl2u-user-guide-for-business-owners/saved-business/manage-saved-business-list/`},
-      {label: 'View Available Shops and Shops Details in Saved Business List', href: `/docs/cl2u-user-guide-for-business-owners/saved-business/view-available-shops-and-shops-details-in-saved-business-list/`},
+      {label: 'Manage Saved Business List', href: `/docs/cl2u-user-guide-for-business-owners/saved-business/manage-saved-business/`},
+      {label: 'View Available Shops and Shops Details in Saved Business List', href: `/docs/cl2u-user-guide-for-business-owners/saved-business/view-available-shops-in-saved-business-list/`},
       {label: 'Add Shops to Saved Business List', href: `/docs/cl2u-user-guide-for-business-owners/saved-business/add-shops-to-saved-business-list/`},
       {label: 'Remove Shop from Business List', href: `/docs/cl2u-user-guide-for-business-owners/saved-business/remove-shop-from-business-list/`},
     ],
@@ -254,14 +254,6 @@ export default function BizOwnerGuideCategoryPage() {
                 <time dateTime="2023-03-10T16:36:58+08:00">Updated on March 10, 2023</time>
               </footer>
 
-              <nav className="wedocs-doc-nav-clone" aria-label="Doc navigation">
-                <a href="https://public.cl2u.net/docs/cl2u-user-guide/">← CL2U User Guide for Players</a>
-                <a href="https://public.cl2u.net/docs/cl2u-additional-guide-for-distributors/">CL2U Additional Guide for Distributors →</a>
-              </nav>
-
-              <div className="wedocs-feedback-clone">
-                Was this article helpful to you? <a href="#">Yes</a> <a href="#">No</a>
-              </div>
             </article>
           </div>
         </section>
