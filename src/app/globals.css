@@ -119,6 +119,11 @@ a { color: inherit; text-decoration: none; }
 .doc-category-page { background: #fff; padding: 55px 30px 40px; }
 .doc-category-content { max-width: 1170px; margin: 0 auto; padding-top: 55px; }
 .doc-category-search { margin-bottom: 4%; }
+.doc-article-body { margin: 0; }
+.doc-article-body p { margin: 0 0 20px; font-size: 20px; line-height: 33px; }
+.doc-article-body p:last-child { margin-bottom: 0; }
+.doc-image-figure { margin: 24px 0; padding: 0; text-align: center; }
+.doc-image-figure img { max-width: 100%; height: auto; display: block; }
 .wedocs-single-wrap-clone { display: flex; gap: 25px; align-items: flex-start; }
 .wedocs-sidebar-clone { flex: 0 0 25%; max-width: 25%; }
 .wedocs-sidebar-clone h2 { margin: 0 0 15px; padding: 0 0 15px; color: #000; font-size: 23.4px; line-height: 32.994px; font-weight: 700; }

@@ -9,29 +9,14 @@ const navItems = [
 
 const origin = 'https://public.cl2u.net';
 
-const publisherArticles = [
-  {
-    label: 'About',
-    href: `${origin}/docs/cl2u-additional-guide-for-publishers/about/`,
-    children: [
-      {
-        label: 'Publisher Role',
-        href: `${origin}/docs/cl2u-additional-guide-for-publishers/about/publisher-role/`,
-      },
-    ],
-  },
-];
-
 export const metadata: Metadata = {
-  title: 'CL2U Additional Guide for Publishers',
-  description: 'CL2U Additional Guide for Publishers documentation category and article index.',
-  alternates: {
-    canonical: '/docs/cl2u-additional-guide-for-publishers/',
-  },
+  title: 'About – CL2U Additional Guide for Publishers',
+  description: 'About section of the CL2U Additional Guide for Publishers.',
+  alternates: { canonical: '/docs/cl2u-additional-guide-for-publishers/about/' },
   openGraph: {
-    title: 'CL2U Additional Guide for Publishers',
-    description: 'CL2U Additional Guide for Publishers documentation category and article index.',
-    url: '/docs/cl2u-additional-guide-for-publishers/',
+    title: 'About – CL2U Additional Guide for Publishers',
+    description: 'About section of the CL2U Additional Guide for Publishers.',
+    url: '/docs/cl2u-additional-guide-for-publishers/about/',
     siteName: 'CL2U',
     images: [{ url: '/images/logo.png', alt: 'CL2U Logo' }],
   },
@@ -46,9 +31,7 @@ function SiteHeader() {
         </a>
         <nav className="desktop-nav" aria-label="Main Menu">
           {navItems.map((item, index) => (
-            <a key={item.label} className={index === 0 ? 'active' : ''} href={item.href}>
-              {item.label}
-            </a>
+            <a key={item.label} className={index === 0 ? 'active' : ''} href={item.href}>{item.label}</a>
           ))}
           <a className="login-button" href="https://cl2u.net/login">LOGIN</a>
         </nav>
@@ -56,9 +39,7 @@ function SiteHeader() {
           <summary aria-label="Toggle mobile menu"><span></span><span></span><span></span></summary>
           <div className="mobile-panel">
             {navItems.map((item, index) => (
-              <a key={item.label} className={index === 0 ? 'active' : ''} href={item.href}>
-                {item.label}
-              </a>
+              <a key={item.label} className={index === 0 ? 'active' : ''} href={item.href}>{item.label}</a>
             ))}
             <a href="https://cl2u.net/login">LOGIN</a>
           </div>
@@ -82,17 +63,16 @@ function SiteFooter() {
   );
 }
 
-export default function PublishersGuideCategoryPage() {
+export default function AboutPage() {
   return (
     <>
       <SiteHeader />
-
       <main className="doc-category-page">
-        <section className="doc-category-content" aria-label="CL2U Additional Guide for Publishers">
+        <section className="doc-category-content" aria-label="About">
           <form className="docs-search doc-category-search" role="search" method="get" action="https://public.cl2u.net/">
-            <label className="screen-reader-text" htmlFor="publisher-doc-search-input">Search for:</label>
+            <label className="screen-reader-text" htmlFor="about-search-input">Search for:</label>
             <span className="docs-search-icon" aria-hidden="true">⌕</span>
-            <input id="publisher-doc-search-input" type="search" name="s" placeholder="Start typing to search the user guide" required />
+            <input id="about-search-input" type="search" name="s" placeholder="Start typing to search the user guide" required />
             <input type="hidden" name="post_type[]" value="docs" />
             <input type="hidden" name="fs" value="1" />
             <button type="submit" aria-label="Search original documentation">⌕</button>
@@ -102,16 +82,12 @@ export default function PublishersGuideCategoryPage() {
             <aside className="wedocs-sidebar-clone" aria-label="CL2U Additional Guide for Publishers navigation">
               <h2>CL2U Additional Guide for Publishers</h2>
               <ul className="doc-nav-list-clone">
-                {publisherArticles.map((article) => (
-                  <li key={article.label}>
-                    <a href={article.href}>📁{article.label}<span aria-hidden="true">⌄</span></a>
-                    <ul>
-                      {article.children.map((child) => (
-                        <li key={child.label}><a href={child.href}>{child.label}</a></li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
+                <li>
+                  <a href={origin + '/docs/cl2u-additional-guide-for-publishers/about/'}>📁About<span aria-hidden="true">⌄</span></a>
+                  <ul>
+                    <li><a href={origin + '/docs/cl2u-additional-guide-for-publishers/about/publisher-role/'}>Publisher Role</a></li>
+                  </ul>
+                </li>
               </ul>
             </aside>
 
@@ -122,40 +98,33 @@ export default function PublishersGuideCategoryPage() {
                 <li aria-hidden="true">›</li>
                 <li><a href="/docs/">Docs</a></li>
                 <li aria-hidden="true">›</li>
-                <li><span>CL2U Additional Guide for Publishers</span></li>
+                <li><a href="/docs/cl2u-additional-guide-for-publishers/">CL2U Additional Guide for Publishers</a></li>
+                <li aria-hidden="true">›</li>
+                <li><span>About</span></li>
               </ol>
 
               <header className="doc-entry-header-clone">
-                <h1 itemProp="headline">CL2U Additional Guide for Publishers</h1>
+                <h1 itemProp="headline">About</h1>
                 <a className="doc-print-clone" href="#" aria-label="Print this article">▣</a>
               </header>
 
               <div className="article-child-clone" itemProp="articleBody">
                 <h2>Articles</h2>
                 <ul>
-                  {publisherArticles.map((article) => (
-                    <li key={article.label}>
-                      <a href={article.href}>{article.label}</a>
-                      <ul>
-                        {article.children.map((child) => (
-                          <li key={child.label}><a href={child.href}>{child.label}</a></li>
-                        ))}
-                      </ul>
-                    </li>
-                  ))}
+                  <li>
+                    <a href={origin + '/docs/cl2u-additional-guide-for-publishers/about/publisher-role/'}>Publisher Role</a>
+                  </li>
                 </ul>
               </div>
 
               <footer className="wedocs-entry-footer-clone">
                 <span>✉ Still stuck? <a href="#">How can we help?</a></span>
-                <time dateTime="2023-03-10T16:36:58+08:00">Updated on March 10, 2023</time>
+                <time dateTime="2023-03-07T15:45:24+08:00">Updated on March 7, 2023</time>
               </footer>
-
             </article>
           </div>
         </section>
       </main>
-
       <SiteFooter />
       <a className="back-top" href="#" aria-label="Go to top">⌃</a>
     </>

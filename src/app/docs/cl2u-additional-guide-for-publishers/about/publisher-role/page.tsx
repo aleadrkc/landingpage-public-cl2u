@@ -9,29 +9,14 @@ const navItems = [
 
 const origin = 'https://public.cl2u.net';
 
-const publisherArticles = [
-  {
-    label: 'About',
-    href: `${origin}/docs/cl2u-additional-guide-for-publishers/about/`,
-    children: [
-      {
-        label: 'Publisher Role',
-        href: `${origin}/docs/cl2u-additional-guide-for-publishers/about/publisher-role/`,
-      },
-    ],
-  },
-];
-
 export const metadata: Metadata = {
-  title: 'CL2U Additional Guide for Publishers',
-  description: 'CL2U Additional Guide for Publishers documentation category and article index.',
-  alternates: {
-    canonical: '/docs/cl2u-additional-guide-for-publishers/',
-  },
+  title: 'Publisher Role – CL2U',
+  description: 'Game publishers can perform similar functions to business owners, with additional features like viewing tournaments organized by distributors.',
+  alternates: { canonical: '/docs/cl2u-additional-guide-for-publishers/about/publisher-role/' },
   openGraph: {
-    title: 'CL2U Additional Guide for Publishers',
-    description: 'CL2U Additional Guide for Publishers documentation category and article index.',
-    url: '/docs/cl2u-additional-guide-for-publishers/',
+    title: 'Publisher Role – CL2U',
+    description: 'Learn about the Publisher role and how game publishers can invite distributors and shops to their programme.',
+    url: '/docs/cl2u-additional-guide-for-publishers/about/publisher-role/',
     siteName: 'CL2U',
     images: [{ url: '/images/logo.png', alt: 'CL2U Logo' }],
   },
@@ -46,9 +31,7 @@ function SiteHeader() {
         </a>
         <nav className="desktop-nav" aria-label="Main Menu">
           {navItems.map((item, index) => (
-            <a key={item.label} className={index === 0 ? 'active' : ''} href={item.href}>
-              {item.label}
-            </a>
+            <a key={item.label} className={index === 0 ? 'active' : ''} href={item.href}>{item.label}</a>
           ))}
           <a className="login-button" href="https://cl2u.net/login">LOGIN</a>
         </nav>
@@ -56,9 +39,7 @@ function SiteHeader() {
           <summary aria-label="Toggle mobile menu"><span></span><span></span><span></span></summary>
           <div className="mobile-panel">
             {navItems.map((item, index) => (
-              <a key={item.label} className={index === 0 ? 'active' : ''} href={item.href}>
-                {item.label}
-              </a>
+              <a key={item.label} className={index === 0 ? 'active' : ''} href={item.href}>{item.label}</a>
             ))}
             <a href="https://cl2u.net/login">LOGIN</a>
           </div>
@@ -82,17 +63,16 @@ function SiteFooter() {
   );
 }
 
-export default function PublishersGuideCategoryPage() {
+export default function PublisherRolePage() {
   return (
     <>
       <SiteHeader />
-
       <main className="doc-category-page">
-        <section className="doc-category-content" aria-label="CL2U Additional Guide for Publishers">
+        <section className="doc-category-content" aria-label="Publisher Role">
           <form className="docs-search doc-category-search" role="search" method="get" action="https://public.cl2u.net/">
-            <label className="screen-reader-text" htmlFor="publisher-doc-search-input">Search for:</label>
+            <label className="screen-reader-text" htmlFor="role-search-input">Search for:</label>
             <span className="docs-search-icon" aria-hidden="true">⌕</span>
-            <input id="publisher-doc-search-input" type="search" name="s" placeholder="Start typing to search the user guide" required />
+            <input id="role-search-input" type="search" name="s" placeholder="Start typing to search the user guide" required />
             <input type="hidden" name="post_type[]" value="docs" />
             <input type="hidden" name="fs" value="1" />
             <button type="submit" aria-label="Search original documentation">⌕</button>
@@ -102,16 +82,12 @@ export default function PublishersGuideCategoryPage() {
             <aside className="wedocs-sidebar-clone" aria-label="CL2U Additional Guide for Publishers navigation">
               <h2>CL2U Additional Guide for Publishers</h2>
               <ul className="doc-nav-list-clone">
-                {publisherArticles.map((article) => (
-                  <li key={article.label}>
-                    <a href={article.href}>📁{article.label}<span aria-hidden="true">⌄</span></a>
-                    <ul>
-                      {article.children.map((child) => (
-                        <li key={child.label}><a href={child.href}>{child.label}</a></li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
+                <li>
+                  <a href={origin + '/docs/cl2u-additional-guide-for-publishers/about/'}>📁About<span aria-hidden="true">⌄</span></a>
+                  <ul>
+                    <li><a href={origin + '/docs/cl2u-additional-guide-for-publishers/about/publisher-role/'}>Publisher Role</a></li>
+                  </ul>
+                </li>
               </ul>
             </aside>
 
@@ -122,40 +98,38 @@ export default function PublishersGuideCategoryPage() {
                 <li aria-hidden="true">›</li>
                 <li><a href="/docs/">Docs</a></li>
                 <li aria-hidden="true">›</li>
-                <li><span>CL2U Additional Guide for Publishers</span></li>
+                <li><a href="/docs/cl2u-additional-guide-for-publishers/">CL2U Additional Guide for Publishers</a></li>
+                <li aria-hidden="true">›</li>
+                <li><a href="/docs/cl2u-additional-guide-for-publishers/about/">About</a></li>
+                <li aria-hidden="true">›</li>
+                <li><span>Publisher Role</span></li>
               </ol>
 
               <header className="doc-entry-header-clone">
-                <h1 itemProp="headline">CL2U Additional Guide for Publishers</h1>
+                <h1 itemProp="headline">Publisher Role</h1>
                 <a className="doc-print-clone" href="#" aria-label="Print this article">▣</a>
               </header>
 
-              <div className="article-child-clone" itemProp="articleBody">
-                <h2>Articles</h2>
-                <ul>
-                  {publisherArticles.map((article) => (
-                    <li key={article.label}>
-                      <a href={article.href}>{article.label}</a>
-                      <ul>
-                        {article.children.map((child) => (
-                          <li key={child.label}><a href={child.href}>{child.label}</a></li>
-                        ))}
-                      </ul>
-                    </li>
-                  ))}
-                </ul>
+              <div className="doc-article-body" itemProp="articleBody">
+                <p>Game publishers are able to perform similar functions to those of business owners, such as retail shops and game distributors. In essence, they have the same access as game distributors with additional features, such as the ability to view tournaments organized by their distributors and include them in their official shop programme.</p>
+                <p>For example, the first picture depicts the official shop programme for a game distributor. From the image, we can see that the game distributor is only able to invite the shops and event organizers under their distribution to participate.</p>
+                <p>The second picture depicts the official shop programme for a game publisher. From this image, we can see that game publishers can invite not only shops and event organizers but also their distributors to join the programme.</p>
+                <figure className="doc-image-figure">
+                  <img src="/images/publisher2.png" alt="Official Shop Programme for game distributor" width={1200} height={600} />
+                </figure>
+                <figure className="doc-image-figure">
+                  <img src="/images/publisher1.png" alt="Official Shop Programme for game publisher showing distributors can be invited" width={1200} height={605} />
+                </figure>
               </div>
 
               <footer className="wedocs-entry-footer-clone">
                 <span>✉ Still stuck? <a href="#">How can we help?</a></span>
-                <time dateTime="2023-03-10T16:36:58+08:00">Updated on March 10, 2023</time>
+                <time dateTime="2023-03-07T15:45:24+08:00">Updated on March 7, 2023</time>
               </footer>
-
             </article>
           </div>
         </section>
       </main>
-
       <SiteFooter />
       <a className="back-top" href="#" aria-label="Go to top">⌃</a>
     </>
