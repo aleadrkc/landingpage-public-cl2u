@@ -123,7 +123,7 @@ export default function PublisherRolePage() {
               </div>
 
               <footer className="wedocs-entry-footer-clone">
-                <span>✉ Still stuck? <a href="#">How can we help?</a></span>
+                <span className="wedocs-help-icon"><i className="wedocs-icon wedocs-icon-envelope"></i> Still stuck? <a href="#">How can we help?</a></span>
                 <time dateTime="2023-03-07T15:45:24+08:00">Updated on March 7, 2023</time>
               </footer>
             </article>

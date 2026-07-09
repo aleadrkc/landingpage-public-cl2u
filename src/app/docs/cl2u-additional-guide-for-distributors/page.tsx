@@ -191,7 +191,7 @@ export default function DistributorsGuideCategoryPage() {
               </div>
 
               <footer className="wedocs-entry-footer-clone">
-                <span>✉ Still stuck? <a href="#">How can we help?</a></span>
+                <span className="wedocs-help-icon"><i className="wedocs-icon wedocs-icon-envelope"></i> Still stuck? <a href="#">How can we help?</a></span>
                 <time dateTime="2023-03-10T16:36:58+08:00">Updated on March 10, 2023</time>
               </footer>
 

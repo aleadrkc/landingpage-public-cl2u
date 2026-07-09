@@ -146,6 +146,7 @@ a { color: inherit; text-decoration: none; }
 .wedocs-entry-footer-clone { margin: 60px 0 0; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; font-size: 20px; line-height: 33px; }
 .wedocs-entry-footer-clone a { color: #f80000; }
 .wedocs-entry-footer-clone time { color: #777; font-size: 15px; line-height: 24px; }
+.wedocs-help-icon i { font-style: normal; margin-right: 6px; }
 .wedocs-doc-nav-clone { margin-top: 45px; border-top: 1px solid #e3e3e3; padding-top: 22px; font-size: 20px; line-height: 33px; }
 .wedocs-doc-nav-clone a { color: #f80000; }
 .wedocs-feedback-clone { margin-top: 30px; font-size: 20px; line-height: 33px; }
