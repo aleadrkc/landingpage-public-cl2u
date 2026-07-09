@@ -12,11 +12,11 @@ const origin = 'https://public.cl2u.net';
 const publisherArticles = [
   {
     label: 'About',
-    href: `${origin}/docs/cl2u-additional-guide-for-publishers/about/`,
+    href: `/docs/cl2u-additional-guide-for-publishers/about/`,
     children: [
       {
         label: 'Publisher Role',
-        href: `${origin}/docs/cl2u-additional-guide-for-publishers/about/publisher-role/`,
+        href: `/docs/cl2u-additional-guide-for-publishers/about/publisher-role/`,
       },
     ],
   },

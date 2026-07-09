@@ -83,9 +83,9 @@ export default function PublisherRolePage() {
               <h2>CL2U Additional Guide for Publishers</h2>
               <ul className="doc-nav-list-clone">
                 <li>
-                  <a href={origin + '/docs/cl2u-additional-guide-for-publishers/about/'}>📁About<span aria-hidden="true">⌄</span></a>
+                  <a href={'/docs/cl2u-additional-guide-for-publishers/about/'}>📁About<span aria-hidden="true">⌄</span></a>
                   <ul>
-                    <li><a href={origin + '/docs/cl2u-additional-guide-for-publishers/about/publisher-role/'}>Publisher Role</a></li>
+                    <li><a href={'/docs/cl2u-additional-guide-for-publishers/about/publisher-role/'}>Publisher Role</a></li>
                   </ul>
                 </li>
               </ul>

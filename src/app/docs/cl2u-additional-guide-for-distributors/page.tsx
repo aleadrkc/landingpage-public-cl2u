@@ -12,52 +12,52 @@ const origin = 'https://public.cl2u.net';
 const distributorArticles = [
   {
     label: 'Saved Business',
-    href: `${origin}/docs/cl2u-additional-guide-for-distributors/saved-business/`,
+    href: `/docs/cl2u-additional-guide-for-distributors/saved-business/`,
     children: [],
   },
   {
     label: 'Official Shop Programme',
-    href: `${origin}/docs/cl2u-additional-guide-for-distributors/official-shop-programme/`,
+    href: `/docs/cl2u-additional-guide-for-distributors/official-shop-programme/`,
     children: [],
   },
   {
     label: 'Shops',
-    href: `${origin}/docs/cl2u-additional-guide-for-distributors/shops/`,
+    href: `/docs/cl2u-additional-guide-for-distributors/shops/`,
     children: [],
   },
   {
     label: 'Staff',
-    href: `${origin}/docs/cl2u-additional-guide-for-distributors/staff/`,
+    href: `/docs/cl2u-additional-guide-for-distributors/staff/`,
     children: [
-      { label: 'Add Staff', href: `${origin}/docs/cl2u-additional-guide-for-distributors/staff/add-staff/` },
-      { label: 'Edit Staff', href: `${origin}/docs/cl2u-additional-guide-for-distributors/staff/edit-staff/` },
-      { label: 'Delete Staff', href: `${origin}/docs/cl2u-additional-guide-for-distributors/staff/delete-staff/` },
-      { label: 'Manage the Data Access Limitation for the Staff', href: `${origin}/docs/cl2u-additional-guide-for-distributors/staff/manage-the-data-access-limitation-for-the-staff/` },
+      { label: 'Add Staff', href: `/docs/cl2u-additional-guide-for-distributors/staff/add-staff/` },
+      { label: 'Edit Staff', href: `/docs/cl2u-additional-guide-for-distributors/staff/edit-staff/` },
+      { label: 'Delete Staff', href: `/docs/cl2u-additional-guide-for-distributors/staff/delete-staff/` },
+      { label: 'Manage the Data Access Limitation for the Staff', href: `/docs/cl2u-additional-guide-for-distributors/staff/manage-the-data-access-limitation-for-the-staff/` },
     ],
   },
   {
     label: 'Adventure Campaigns',
-    href: `${origin}/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/`,
+    href: `/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/`,
     children: [
-      { label: 'Manage Adventure Campaign', href: `${origin}/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/manage-adventure-campaign/` },
-      { label: 'Create Adventure Campaign', href: `${origin}/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/create-adventure-campaign/` },
-      { label: 'Edit Adventure Campaign', href: `${origin}/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/edit-adventure-campaign/` },
-      { label: 'Delete Adventure Campaign', href: `${origin}/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/delete-adventure-campaign/` },
+      { label: 'Manage Adventure Campaign', href: `/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/manage-adventure-campaign/` },
+      { label: 'Create Adventure Campaign', href: `/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/create-adventure-campaign/` },
+      { label: 'Edit Adventure Campaign', href: `/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/edit-adventure-campaign/` },
+      { label: 'Delete Adventure Campaign', href: `/docs/cl2u-additional-guide-for-distributors/adventure-campaigns/delete-adventure-campaign/` },
     ],
   },
   {
     label: 'Campaigns',
-    href: `${origin}/docs/cl2u-additional-guide-for-distributors/campaigns/`,
+    href: `/docs/cl2u-additional-guide-for-distributors/campaigns/`,
     children: [
-      { label: 'Manage Campaigns', href: `${origin}/docs/cl2u-additional-guide-for-distributors/campaigns/manage-campaigns/` },
+      { label: 'Manage Campaigns', href: `/docs/cl2u-additional-guide-for-distributors/campaigns/manage-campaigns/` },
     ],
   },
   {
     label: 'Tournament Criteria',
-    href: `${origin}/docs/cl2u-additional-guide-for-distributors/tournament-criteria/`,
+    href: `/docs/cl2u-additional-guide-for-distributors/tournament-criteria/`,
     children: [
-      { label: 'Manage Tournament Criteria', href: `${origin}/docs/cl2u-additional-guide-for-distributors/tournament-criteria/manage-tournament-criteria/` },
-      { label: 'How to Apply Tournament Criteria', href: `${origin}/docs/cl2u-additional-guide-for-distributors/tournament-criteria/how-to-apply-tournament-criteria/` },
+      { label: 'Manage Tournament Criteria', href: `/docs/cl2u-additional-guide-for-distributors/tournament-criteria/manage-tournament-criteria/` },
+      { label: 'How to Apply Tournament Criteria', href: `/docs/cl2u-additional-guide-for-distributors/tournament-criteria/how-to-apply-tournament-criteria/` },
     ],
   },
 ];
