@@ -122,6 +122,13 @@ a { color: inherit; text-decoration: none; }
 .doc-article-body { margin: 0; }
 .doc-article-body p { margin: 0 0 20px; font-size: 20px; line-height: 33px; }
 .doc-article-body p:last-child { margin-bottom: 0; }
+.doc-article-body img { max-width: 100%; height: auto; display: block; }
+.doc-article-body a img { display: block; max-width: 100%; height: auto; }
+.doc-article-body figure { margin: 24px 0; padding: 0; text-align: center; }
+.doc-article-body figure img { max-width: 100%; height: auto; display: block; }
+.doc-article-body ol, .doc-article-body ul { padding-left: 24px; }
+.doc-article-body li { font-size: 20px; line-height: 33px; margin-bottom: 12px; }
+.doc-article-body li img, .doc-article-body p img { max-width: 100%; height: auto; display: block; }
 .doc-image-figure { margin: 24px 0; padding: 0; text-align: center; }
 .doc-image-figure img { max-width: 100%; height: auto; display: block; }
 .wedocs-single-wrap-clone { display: flex; gap: 25px; align-items: flex-start; }
