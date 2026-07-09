@@ -30,7 +30,7 @@ const playerArticles = [
     href: `/docs/cl2u-user-guide/tournaments/`,
     children: [
       {label: 'Find a Tournament', href: `/docs/cl2u-user-guide/tournaments/find-a-tournament/`},
-      {label: 'Register a Tournament (Including Email Received)', href: `/docs/cl2u-user-guide/tournaments/register-a-tournament-including-email-received/`},
+      {label: 'Register a Tournament (Including Email Received)', href: `/docs/cl2u-user-guide/tournaments/register-a-tournament/`},
       {label: 'Register a Team Tournament (Including Email Received)', href: `/docs/cl2u-user-guide/tournaments/register-a-team-tournament-including-email-received/`},
       {label: 'Manage Registered Tournaments', href: `/docs/cl2u-user-guide/tournaments/manage-registered-tournaments/`},
       {label: 'Cancel Tournament Registration', href: `/docs/cl2u-user-guide/tournaments/cancel-tournament-registration/`},
@@ -61,7 +61,7 @@ const playerArticles = [
     children: [
       {label: 'Find Nearby Retail Shop', href: `/docs/cl2u-user-guide/shops/find-nearby-retail-shop/`},
       {label: 'View Tournaments (Held by Shop)', href: `/docs/cl2u-user-guide/shops/view-tournaments-held-by-shop/`},
-      {label: 'Bookmark Shop to Favorite Shop List', href: `/docs/cl2u-user-guide/shops/bookmark-shop-to-favorite-shop-list/`},
+      {label: 'Bookmark Shop to Favorite Shop List', href: `/docs/cl2u-user-guide/shops/bookmark-shop-to-favorite-list/`},
       {label: 'Manage Favorite Shop List', href: `/docs/cl2u-user-guide/shops/manage-favorite-shop-list/`},
     ],
   },
@@ -213,13 +213,6 @@ export default function PlayersGuideCategoryPage() {
                 <time dateTime="2023-03-10T16:36:58+08:00">Updated on March 10, 2023</time>
               </footer>
 
-              <nav className="wedocs-doc-nav-clone" aria-label="Doc navigation">
-                <a href="https://public.cl2u.net/docs/cl2u-user-guide-for-business-owners/">CL2U User Guide for Business Owners →</a>
-              </nav>
-
-              <div className="wedocs-feedback-clone">
-                Was this article helpful to you? <a href="#">Yes</a> <a href="#">No</a>
-              </div>
             </article>
           </div>
         </section>
