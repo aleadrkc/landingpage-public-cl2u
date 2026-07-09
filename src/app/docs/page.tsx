@@ -39,7 +39,7 @@ const guideGroups = [
   },
   {
     title: 'CL2U Additional Guide for Distributors',
-    href: `${origin}/docs/cl2u-additional-guide-for-distributors/`,
+    href: '/docs/cl2u-additional-guide-for-distributors/',
     sections: [
       ['Saved Business', `${origin}/docs/cl2u-additional-guide-for-distributors/saved-business/`],
       ['Official Shop Programme', `${origin}/docs/cl2u-additional-guide-for-distributors/official-shop-programme/`],
