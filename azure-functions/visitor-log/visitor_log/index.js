@@ -1,13 +1,18 @@
 const { BlobServiceClient } = require('@azure/storage-blob');
 
-const allowedOrigin = process.env.ALLOWED_ORIGIN || 'https://demolandingpubliccl2u.z48.web.core.windows.net';
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || process.env.ALLOWED_ORIGIN || 'https://demolandingpubliccl2u.z48.web.core.windows.net')
+  .split(',')
+  .map((origin) => origin.trim())
+  .filter(Boolean);
 const containerName = process.env.LOG_CONTAINER || 'visitor-logs';
 const prefix = process.env.LOG_PREFIX || '_visitor-logs';
 const conn = process.env.LOG_STORAGE_CONNECTION_STRING || process.env.AzureWebJobsStorage;
 
-function headers() {
+function headers(req) {
+  const origin = req && req.headers && req.headers.origin;
+  const allowOrigin = allowedOrigins.includes(origin) ? origin : allowedOrigins[0];
   return {
-    'Access-Control-Allow-Origin': allowedOrigin,
+    'Access-Control-Allow-Origin': allowOrigin,
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
     'Access-Control-Max-Age': '86400',
@@ -33,7 +38,7 @@ function stamp(d) {
 
 module.exports = async function (context, req) {
   if (req.method === 'OPTIONS') {
-    context.res = { status: 204, headers: headers(), body: '' };
+    context.res = { status: 204, headers: headers(req), body: '' };
     return;
   }
 
@@ -60,9 +65,9 @@ module.exports = async function (context, req) {
       if (e.statusCode !== 409) throw e;
     }
     await appendBlob.appendBlock(line, Buffer.byteLength(line));
-    context.res = { status: 204, headers: headers(), body: '' };
+    context.res = { status: 204, headers: headers(req), body: '' };
   } catch (err) {
     context.log.error(err);
-    context.res = { status: 500, headers: headers(), body: JSON.stringify({ error: String(err && err.message || err) }) };
+    context.res = { status: 500, headers: headers(req), body: JSON.stringify({ error: String(err && err.message || err) }) };
   }
 };

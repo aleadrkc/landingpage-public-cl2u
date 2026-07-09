@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import './globals.css';
 
-const baseUrl = 'https://demolandingpubliccl2u.z48.web.core.windows.net';
+const baseUrl = 'https://public.cl2u.net';
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -43,7 +43,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           {`
             (function () {
               function postVisitorLog(status) {
-                var endpoint = 'https://cl2u-demo-log-win.azurewebsites.net/api/visitor-log';
+                var endpoint = window.location.hostname === 'demolandingpubliccl2u.z48.web.core.windows.net'
+                  ? 'https://cl2u-demo-log-win.azurewebsites.net/api/visitor-log'
+                  : 'https://cl2u-live-log-win.azurewebsites.net/api/visitor-log';
                 var payload = JSON.stringify({
                   method: 'GET',
                   path: window.location.pathname + window.location.search,
